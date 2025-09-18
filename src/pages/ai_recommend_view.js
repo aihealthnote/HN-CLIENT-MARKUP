@@ -1,0 +1,219 @@
+export default function AiRecommendView() {
+  return (
+    <>
+      <div className="my_care_padding display_flex_row space_between align_items_center">
+        <div className="font_22 weight_semi_bold">AI 추천 식단·운동</div>
+        <div className="display_flex_row gap_20">
+          <img src="/img/top_ai.svg" width="24" height="24" alt="ai"></img>
+          <img
+            src="/img/top_alarm.svg"
+            width="24"
+            height="24"
+            alt="alarm"
+          ></img>
+        </div>
+      </div>
+      <div className="display_flex_row align_items_center radius_12 margin_20">
+        <div className="font_15 weight_regular color_gray_70 padding_16_20 background_gray_5 radius_12">
+          내 건강상태는 적당한 체중과 혈압, 혈액 지표도 안정적인 편이에요.
+          콜레스테롤 수치가 조금 높아서 지방과 나트륨 섭취를 조절하는 게 좋아요.
+          <br /> <br />주 3~4회 정도 가볍게 걷거나 스트레칭으로 활동량을
+          유지하면 좋아요. 선호 음식은 짜거나 기름진 음식이 있는데, 대체품으로
+          건강하게 즐 길 수 있도록 추천해드릴게요.
+        </div>
+      </div>
+      <div className="margin_20 margin_top_20 position_relative">
+        <button className="display_flex_row gap_6 align_items_center">
+          <img
+            src="/img/report_update_wh.svg"
+            alt="report_update"
+            width="26"
+            className="background_0CC25A padding_4 radius_50"
+          ></img>
+          <span className="color_0CC25A weight_semi_bold">
+            새로운 추천 식단·운동 만들기
+          </span>
+        </button>
+        <div className="position_relative absolute_ballon">
+          <div className="ballon_wrap">
+            <div className="ballon_3 padding_8_12 radius_8 display_flex_row space_between align_items_center">
+              <div className="font_12 weight_medium color_FFF200">
+                내일 다시 추천 정보를 만들 수 있어요
+              </div>
+              <img src="/img/close_gr2.svg" width="16" height="16"></img>
+            </div>
+            <div className="ballon_triangle3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="background_gray_5 padding_20_0 margin_bottom_50">
+        <div className="display_flex_column gap_12 margin_bottom_50">
+          <div className="padding_20 margin_0_20 background_gray_0 radius_12 display_flex_column gap_20 shadow_normal">
+            <div className="display_flex_column gap_16">
+              <img src="/img/recommend_hand.svg" width="48" height="48"></img>
+              <div className="font_19 weight_semi_bold color_gray_90">
+                오늘은&nbsp;
+                <span className="font_19 weight_semi_bold color_0CC25A">
+                  실천
+                </span>
+                해보세요
+              </div>
+            </div>
+            <div className="display_flex_column gap_16">
+              <div className="padding_20_16 background_gray_5 radius_8 display_flex_row gap_12">
+                <img src="/img/recommend_workout.svg" width="40"></img>
+                <div className="display_flex_column">
+                  <div className="font_15 weight_semi_bold color_gray_90">
+                    퇴근 후 걷기 + 스트레칭 = 30분!
+                  </div>
+                  <div className="color_gray_70">가까운 공원 or 집 주변</div>
+                </div>
+              </div>
+              <div className="display_flex_column">
+                <div className="padding_20_16 background_gray_5 radius_8 display_flex_row gap_12">
+                  <img src="/img/meal_breakfast.svg" width="40"></img>
+                  <div className="display_flex_column">
+                    <div className="font_15 weight_semi_bold color_gray_90">
+                      아침 : 귀리죽
+                    </div>
+                    <div className="color_gray_70">1인분 / 100kcal</div>
+                  </div>
+                </div>
+                <div className="padding_20_16 background_gray_5 radius_8 display_flex_row gap_12">
+                  <img src="/img/meal_lunch.svg" width="40"></img>
+                  <div className="display_flex_column">
+                    <div className="font_15 weight_semi_bold color_gray_90">
+                      점심 : 현미죽
+                    </div>
+                    <div className="color_gray_70">1인분 / 100kcal</div>
+                  </div>
+                </div>
+                <div className="padding_20_16 background_gray_5 radius_8 display_flex_row gap_12">
+                  <img src="/img/meal_dessert.svg" width="40"></img>
+                  <div className="display_flex_column">
+                    <div className="font_15 weight_semi_bold color_gray_90">
+                      간식 : 아몬드 10알
+                    </div>
+                    <div className="color_gray_70">1인분 / 100kcal</div>
+                  </div>
+                </div>
+                <div className="padding_20_16 background_gray_5 radius_8 display_flex_row gap_12">
+                  <img src="/img/meal_dinner.svg" width="40"></img>
+                  <div className="display_flex_column">
+                    <div className="font_15 weight_semi_bold color_gray_90">
+                      저녁 : 닭가슴살
+                    </div>
+                    <div className="color_gray_70">1인분 / 100kcal</div>
+                  </div>
+                </div>
+              </div>
+              <div className="padding_20_16 background_gray_5 radius_8 display_flex_row gap_12">
+                <img src="/img/recommend_meal.svg" width="40"></img>
+                <div className="display_flex_column">
+                  <div className="color_gray_70">
+                    이렇게 바꿔보는 건 어때요?
+                  </div>
+                  <div className="font_15 weight_semi_bold color_gray_90">
+                    김치찌개 → 저염 된장찌개
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="padding_20 margin_0_20 background_gray_0 radius_12 display_flex_column gap_20 shadow_normal">
+            <div className="display_flex_column gap_16">
+              <img
+                src="/img/taking_medication_calendar.svg"
+                width="48"
+                height="48"
+              ></img>
+              <div className="font_19 weight_semi_bold color_gray_90">
+                <span className="font_19 weight_semi_bold color_0CC25A">
+                  내일도
+                </span>{' '}
+                궁금하시죠?
+              </div>
+              <div className="height_44 justify_content_center notice_event_tab_wrap display_flex_row gap_4">
+                <div className="button_primary padding_0_10 radius_50 font_14 weight_medium display_flex_row align_items_center">
+                  내일
+                </div>
+                <div className="background_gray_0 border_gray_20 padding_0_10 radius_50 font_14 weight_medium color_gray_70 display_flex_row align_items_center">
+                  모레
+                </div>
+              </div>
+            </div>
+            <div className="display_flex_column gap_4 meal_grid">
+              <ul className="display_flex_row gap_4">
+                <li className="font_13 color_gray_50 graph_bg_1 background_gray_20 text_align_center radius_4 weight_semi_bold">
+                  요일
+                </li>
+                <li className="font_13 over_weight_button_5 weight_semi_bold text_align_center radius_4">
+                  식단
+                </li>
+                <li className="font_13  over_weight_button_5 weight_semi_bold text_align_center radius_4">
+                  운동
+                </li>
+              </ul>
+
+              <ul className="display_flex_row gap_4">
+                <li className="graph_bg_1 background_gray_20 text_align_center radius_4 weight_semi_bold font_13 display_flex_column justify_content_center color_gray_90">
+                  아침
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13 weight_regular text_align_center display_flex_column justify_content_center">
+                  · 귀리죽
+                  <br /> · 바나나
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13 weight_regular text_align_center display_flex_column justify_content_center">
+                  30분 걷기
+                  <br /> + 스트레칭
+                </li>
+              </ul>
+
+              <ul className="display_flex_row gap_4">
+                <li className="graph_bg_1 background_gray_20 text_align_center radius_4 weight_semi_bold font_13 display_flex_column justify_content_center color_gray_90">
+                  점심
+                </li>
+                <li className=" background_gray_5 color_gray_70 font_13 weight_regular text_align_center display_flex_column justify_content_center">
+                  · 현미밥 <br />· 두부조림 <br />· 시금치나물 <br />· 미역국
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13 weight_regular text_align_center display_flex_column justify_content_center">
+                  숨김
+                </li>
+              </ul>
+
+              <ul className="display_flex_row gap_4">
+                <li className="graph_bg_1 background_gray_20 text_align_center radius_4 weight_semi_bold font_13 display_flex_column justify_content_center color_gray_90">
+                  간식
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13  display_flex_column justify_content_center weight_regular text_align_center">
+                  아몬드 10알
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13  display_flex_column justify_content_center weight_regular text_align_center">
+                  숨김
+                </li>
+              </ul>
+
+              <ul className="display_flex_row gap_4">
+                <li className="graph_bg_1 background_gray_20 text_align_center radius_4 weight_semi_bold font_13 display_flex_column justify_content_center color_gray_90">
+                  저녁
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13  display_flex_column justify_content_center weight_regular text_align_center">
+                  · 닭가슴살샐러드(올리브유 드레싱) <br />· 고구마
+                </li>
+                <li className="graph_bg_2 background_gray_5 color_gray_70 font_13  display_flex_column justify_content_center weight_regular text_align_center">
+                  숨김
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="margin_20">
+          <button className="bottom_button button_primary">
+            추천 식단 저장하기
+          </button>
+        </div>
+      </div>
+    </>
+  );
+}

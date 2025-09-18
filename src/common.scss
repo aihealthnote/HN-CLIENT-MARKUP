@@ -1,0 +1,106 @@
+// font
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+// 초기화
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Pretendard-Regular';
+  color: #1d1d1e;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-style: normal;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+    'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+button {
+  background: transparent;
+  outline: none;
+}
+body {
+  padding-top: 48px; // top 높이
+}
+// 모바일 하이라이트
+* {
+  -webkit-tap-highlight-color: transparent;
+  word-break: break-all;
+}
+// 스크롤
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+// 변수
+:root {
+  --pr: #0cc25a; /* primary */
+  --yl: #dfa617;
+  --or: #f67700;
+  --rd: #e2354b;
+  --bl: #226de7;
+
+  --gray-0: #ffffff;
+  --gray-5: #f8f8fc;
+  --gray-10: #efeff4;
+  --gray-15: #ffffff;
+  --gray-20: #e7e7ed;
+  --gray-30: #cfcfd8;
+  --gray-40: #bebec7;
+  --gray-50: #929299;
+  --gray-60: #74747a;
+  --gray-70: #515155;
+  --gray-80: #2d2d2d;
+  --gray-90: #1d1d1e;
+  --gray-100: #000000;
+
+  /* font-size*/
+  --font-12: 12px;
+  --font-13: 13px;
+  --font-14: 14px;
+  --font-15: 15px;
+  --font-17: 17px;
+  --font-19: 19px;
+  --font-22: 22px;
+  --font-24: 24px;
+  --font-28: 28px;
+  --font-32: 32px;
+
+  /* font-weight */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+
+  /* border-radius */
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-20: 20px;
+
+  /* line-height */
+  --height-regular: 1.2;
+
+  /* text-align */
+  --align-center: center;
+  --align-right: right;
+}

@@ -1,0 +1,3471 @@
+/* font */
+.ellipsis {
+  flex-grow: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text_block_container {
+  flex-grow: 1;
+  min-width: 0;
+}
+.font_12 {
+  font-size: var(--font-12);
+}
+.font_13 {
+  font-size: var(--font-13);
+}
+.font_14 {
+  font-size: var(--font-14);
+}
+.font_14_ellipsis {
+  font-size: var(--font-14);
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.font_wrap {
+  white-space: pre-line;
+  overflow: wrap;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+.font_15 {
+  font-size: var(--font-15);
+}
+.font_17 {
+  font-size: var(--font-17);
+}
+.font_19 {
+  font-size: var(--font-19);
+}
+.font_22 {
+  font-size: var(--font-22);
+}
+.font_24 {
+  font-size: var(--font-24);
+}
+.font_27 {
+  font-size: 27px;
+}
+.font_28 {
+  font-size: var(--font-28);
+}
+.font_32 {
+  font-size: var(--font-32);
+}
+.font_36 {
+  font-size: 36px;
+}
+
+/* 배경색 */
+.background_gray_0 {
+  background-color: var(--gray-0);
+}
+.background_gray_5 {
+  background-color: var(--gray-5);
+}
+.background_gray_10 {
+  background-color: var(--gray-10);
+}
+.background_gray_20 {
+  background-color: var(--gray-20);
+}
+.background_gray_30 {
+  background-color: var(--gray-30);
+}
+.background_gray_70 {
+  background-color: var(--gray-70);
+}
+.background_gray_100 {
+  background-color: var(--gray-100);
+}
+.background_f7f9fd {
+  background-color: #f7f9fd;
+}
+.background_EFF2F8 {
+  background-color: #eff2f8;
+}
+
+/* 폰트 굵기 */
+.weight_regular {
+  font-weight: var(--weight-regular);
+}
+.weight_medium {
+  font-weight: var(--weight-medium);
+}
+.weight_semi_bold {
+  font-weight: var(--weight-semi-bold);
+}
+.weight_bold {
+  font-weight: var(--weight-bold);
+}
+
+/* border-radius */
+.radius_4 {
+  border-radius: 4px;
+}
+.radius_6 {
+  border-radius: var(--radius-6);
+}
+.radius_8 {
+  border-radius: var(--radius-8);
+}
+.radius_12 {
+  border-radius: var(--radius-12);
+}
+.radius_14 {
+  border-radius: 14px;
+}
+.radius_16 {
+  border-radius: 16px;
+}
+.radius_16_20 {
+  border-radius: 16px 20px;
+}
+.radius_20 {
+  border-radius: var(--radius-20);
+}
+.radius_50 {
+  border-radius: 50px;
+}
+
+/* emphasis*/
+.emphasis {
+  font-weight: var(--weight-bold);
+}
+
+/* color_gray */
+.color_gray_0 {
+  color: var(--gray-0);
+}
+.color_gray_5 {
+  color: var(--gray-5);
+}
+.color_gray_10 {
+  color: var(--gray-10);
+}
+.color_gray_15 {
+  color: var(--gray-15);
+}
+.color_gray_20 {
+  color: var(--gray-20);
+}
+.color_gray_30 {
+  color: var(--gray-30);
+}
+.color_gray_40 {
+  color: var(--gray-40);
+}
+.color_gray_50 {
+  color: var(--gray-50);
+}
+.color_gray_60 {
+  color: var(--gray-60);
+}
+.color_gray_70 {
+  color: var(--gray-70);
+}
+.color_gray_80 {
+  color: var(--gray-80);
+}
+.color_gray_90 {
+  color: var(--gray-90);
+}
+.color_gray_100 {
+  color: var(--gray-100);
+}
+
+.color_gr {
+  color: #0d9f4c;
+}
+.color_or {
+  color: var(--or);
+}
+.color_rd {
+  color: #f42a43;
+}
+.color_bl {
+  color: var(--bl);
+}
+
+/* divider */
+.divider {
+  border: 1px solid var(--gray-10);
+  width: 100%;
+}
+.divider_wide {
+  border-bottom: 12px solid var(--gray-5);
+}
+.divider_vertical {
+  border-right: 1px solid var(--gray-20);
+  height: 10px;
+  margin-top: 10px;
+}
+.divider_vertical_12 {
+  border-right: 1px solid var(--gray-20);
+  height: 12px;
+  width: 1px;
+}
+.divider_vertical_20 {
+  border-right: 1px solid var(--gray-20);
+  height: 20px;
+}
+.divider_vertical_37 {
+  border-right: 1px solid var(--gray-20);
+  height: 37px;
+  width: 1px;
+}
+.divider_vertical_44 {
+  border-right: 1px solid var(--gray-20);
+  height: 44px;
+  width: 1px;
+}
+.divider_vertical_64 {
+  border-right: 1px solid var(--gray-20);
+  height: 64.5px;
+  width: 1px;
+}
+.divider_vertical_91 {
+  border-right: 1px solid var(--gray-20);
+  height: 91px;
+  width: 1px;
+}
+.divider_vertical_100 {
+  border-right: 1px solid var(--gray-20);
+  height: 100%;
+  width: 1px;
+}
+.divider_vertical_health_age {
+  border-right: 1px solid var(--gray-20);
+  height: 43px;
+  width: 1px;
+}
+
+/* border */
+.border_gray_10 {
+  border: 1px solid var(--gray-10);
+}
+.border_gray_20 {
+  border: 1px solid var(--gray-20);
+}
+.border_gray_30 {
+  border: 1px solid var(--gray-30);
+}
+.border_bottom_gray_20 {
+  border-bottom: 1px solid var(--gray-20);
+}
+.border_78C499 {
+  border: 1px solid #78c499;
+}
+
+/* flex */
+.display_flex_row {
+  display: flex;
+  flex-direction: row;
+}
+.display_flex_column {
+  display: flex;
+  flex-direction: column;
+}
+.space_between {
+  justify-content: space-between;
+}
+.space_around {
+  justify-content: space-around;
+}
+.space_evenly {
+  justify-content: space-evenly;
+}
+.justify_content_center {
+  justify-content: center;
+}
+.justify_content_flex_end {
+  justify-content: flex-end;
+}
+.align_items_center {
+  align-items: center;
+}
+.align_items_baseline {
+  align-items: baseline;
+}
+.align_items_flex_end {
+  align-items: flex-end;
+}
+
+/* text-align */
+.text_align_left {
+  text-align: left;
+}
+.text_align_center {
+  text-align: var(--align-center);
+}
+.text_align_right {
+  text-align: var(--align-right);
+}
+
+/* gap */
+.gap_2 {
+  gap: 2px;
+}
+.gap_4 {
+  gap: 4px;
+}
+.gap_6 {
+  gap: 6px;
+}
+.gap_8 {
+  gap: 8px;
+}
+.gap_10 {
+  gap: 10px;
+}
+.gap_12 {
+  gap: 12px;
+}
+.gap_14 {
+  gap: 14px;
+}
+.gap_16 {
+  gap: 16px;
+}
+.gap_16_12 {
+  gap: 16px 12px;
+}
+.gap_16_20 {
+  gap: 16px 20px;
+}
+.gap_20 {
+  gap: 20px;
+}
+.gap_24 {
+  gap: 0 24px;
+}
+.gap_24_ {
+  gap: 24px;
+}
+.gap_27 {
+  gap: 27px;
+}
+.gap_28 {
+  gap: 28px;
+}
+.gap_32 {
+  gap: 32px;
+}
+.gap_40 {
+  gap: 40px;
+}
+.gap_48 {
+  gap: 48px;
+}
+.gap_56 {
+  gap: 56px;
+}
+
+/* box-shadow*/
+.shadow_normal {
+  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.06);
+}
+
+/* margin */
+.margin_auto {
+  margin: auto;
+}
+.margin_top_8 {
+  margin-top: 8px;
+}
+.margin_top_12 {
+  margin-top: 12px;
+}
+.margin_top_16 {
+  margin-top: 16px;
+}
+.margin_right_8 {
+  margin-right: 8px;
+}
+.margin_16 {
+  margin: 16px;
+}
+.margin_0_20 {
+  margin: 0 20px;
+}
+.margin_12_0 {
+  margin: 12px 0;
+}
+.margin_12_20 {
+  margin: 12px 20px;
+}
+.margin_20 {
+  margin: 12px 20px;
+}
+.margin_top_20 {
+  margin-top: 20px;
+}
+.margin_top_24 {
+  margin-top: 24px;
+}
+.margin_24_20 {
+  margin: 24px 20px;
+}
+.margin_top_32 {
+  margin-top: 32px;
+}
+.margin_top_48 {
+  margin-top: 48px;
+}
+.margin_bottom_10 {
+  margin-bottom: 10px;
+}
+.margin_bottom_40 {
+  margin-bottom: 40px;
+}
+.margin_bottom_50 {
+  margin-bottom: 50px;
+}
+.margin_bottom_72 {
+  margin-bottom: 72px;
+}
+.margin_bottom_120 {
+  margin-bottom: 120px;
+}
+/* padding */
+.padding_0_4 {
+  padding: 0 4px;
+}
+.padding_4 {
+  padding: 4px;
+}
+.padding_6 {
+  padding: 6px;
+}
+.padding_2_10 {
+  padding: 2px 10px;
+}
+.padding_0_10 {
+  padding: 0 10px;
+}
+.padding_right_10 {
+  padding-right: 10px;
+}
+.padding_10 {
+  padding: 10px;
+}
+.padding_12 {
+  padding: 12px;
+}
+.padding_12_0 {
+  padding: 12px 0;
+}
+.padding_8_12 {
+  padding: 8px 12px;
+}
+.padding_0_16 {
+  padding: 0px 16px;
+}
+.padding_4_16 {
+  padding: 4px 16px;
+}
+.padding_14_16 {
+  padding: 14px 16px;
+}
+.padding_8_16 {
+  padding: 8px 16px;
+}
+.padding_8_20 {
+  padding: 8px 20px;
+}
+.padding_12 {
+  padding: 12px;
+}
+.padding_12_16 {
+  padding: 12px 16px;
+}
+.padding_12_20 {
+  padding: 12px 20px;
+}
+.padding_12_20_16 {
+  padding: 12px 20px 16px;
+}
+.padding_16 {
+  padding: 16px;
+}
+.padding_left_16 {
+  padding-left: 16px;
+}
+.padding_16_12 {
+  padding: 16px 12px;
+}
+.padding_16_0 {
+  padding: 16px 0;
+}
+.padding_16_16_12_16 {
+  padding: 16px 16px 12px 16px;
+}
+.padding_16_20 {
+  padding: 16px 20px;
+}
+.padding_20_16 {
+  padding: 20px 16px;
+}
+.padding_0_20 {
+  padding: 0 20px;
+}
+.padding_0_40 {
+  padding: 0 40px;
+}
+.padding_20_20_0 {
+  padding: 20px 20px 0;
+}
+.padding_0_20_8 {
+  padding: 0 20px 8px;
+}
+.padding_20 {
+  padding: 20px;
+}
+.padding_20_12 {
+  padding: 20px 12px;
+}
+.padding_20_16 {
+  padding: 20px 16px;
+}
+.padding_20_24 {
+  padding: 20px 24px;
+}
+.padding_24 {
+  padding: 24px;
+}
+.padding_28_32 {
+  padding: 28px 28px 32px 28px;
+}
+.padding_24_20 {
+  padding: 24px 20px;
+}
+.padding_40_20 {
+  padding: 40px 20px;
+}
+.padding_20_0 {
+  padding: 20px 0px;
+}
+.padding_top_160 {
+  padding-top: 160px;
+}
+
+/* width */
+.width_10 {
+  width: 10%;
+}
+.width_17 {
+  width: 17%;
+}
+.width_20 {
+  width: 20%;
+}
+.width_25 {
+  width: 25%;
+}
+.width_33 {
+  width: 33%;
+}
+.width_50 {
+  width: 50%;
+}
+.width_58 {
+  width: 58px;
+}
+.width_68 {
+  width: 68px;
+}
+.width_120 {
+  width: 120px;
+}
+.width_100 {
+  width: 100%;
+}
+.width_100_2 {
+  width: 100%;
+  padding: 0 20px;
+}
+.width_200 {
+  width: 200px;
+}
+.width_295 {
+  width: 295px;
+}
+/* height*/
+.height_20 {
+  height: 20px;
+}
+.height_24 {
+  height: 24px;
+  line-height: 24px;
+}
+.height_27 {
+  height: 27px;
+  line-height: 27px;
+}
+.height_32 {
+  height: 32px;
+}
+.height_36 {
+  height: 36px;
+}
+.line_height_36 {
+  line-height: 36px;
+}
+.height_40 {
+  height: 40px;
+}
+.height_42 {
+  height: 42px;
+}
+.height_44 {
+  height: 44px;
+}
+.height_48 {
+  height: 48px;
+}
+.height_52 {
+  height: 52px;
+}
+.height_54 {
+  height: 54px;
+}
+.height_56 {
+  min-height: 56px;
+  height: auto; /* height 고정 없애야 함 */
+  align-items: center; /* 줄바꿈해도 가운데 정렬 유지하고 싶으면 필요 */
+}
+.height_60 {
+  height: 60px;
+}
+.height_64 {
+  height: 64px;
+}
+.height_68 {
+  height: 68px;
+}
+.height_210 {
+  height: 210px;
+}
+.height_475 {
+  height: 475px;
+}
+.height_100vh {
+  height: 100vh;
+}
+
+.height_100per {
+  height: 50vh;
+}
+
+/* 건강검진 / 병원,약국 이용 기록 탭*/
+.two_tab_wrap > li {
+  width: 50%;
+  text-align: center;
+}
+.tab_left {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid var(--gray-90);
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-top: 2px solid transparent;
+}
+
+/* 건강검진 결과 리포트 타이틀+프로필 박스 */
+.report_top_wrap {
+  padding: 32px 20px 24px;
+  gap: 20px;
+}
+
+/* 건강검진 결과 리포트 신호등*/
+.report_blinker_wrap {
+  background-color: var(--gray-0);
+  justify-content: center;
+  padding: 16px 12px 22px;
+}
+.report_blinker_wrap li {
+  width: 33%;
+  align-items: center;
+}
+
+/* 질환별 예측*/
+.prediction_body_wrap {
+  background: linear-gradient(#f8f9fc 20%, #f0f2fc 100%);
+  position: relative;
+}
+.prediction_body_wrap > h3 {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+}
+.prediction_dot_commmon {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--gray-0);
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 60;
+}
+.prediction_dot_normal {
+  background-color: #0d9f4c;
+  top: 103.5px;
+  right: 179px;
+}
+.prediction_dot_error {
+  background-color: var(--or);
+  top: 245px;
+  left: 126px;
+}
+.prediction_dot_highdanger {
+  background-color: #f42a43;
+  top: 170px;
+  left: 166px;
+}
+
+.prediction_1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+.prediction_2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+}
+.prediction_3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 30;
+}
+.prediction_4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 40;
+}
+.prediction_5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+}
+.prediction_padding {
+  padding: 8px 20px;
+}
+.prediction_ul {
+  flex-wrap: nowrap;
+}
+.prediction_li {
+  padding: 12px 16px;
+  width: 33%;
+  border: 1px solid var(--gray-10);
+}
+.prediction_box_normal {
+  color: #0c8c52;
+  background-color: #dbfddb;
+}
+.prediction_box_warning {
+  color: #749220;
+  background-color: #ebf8d1;
+}
+.prediction_box_error {
+  color: var(--or);
+  background-color: #fff7db;
+}
+.prediction_box_danger {
+  color: #ff531f;
+  background-color: #ffece1;
+}
+.prediction_box_danger2 {
+  color: var(--rd);
+  background-color: #ffe7e7;
+}
+.prediction_box_highdanger {
+  color: #e2354b;
+  background-color: #ffe7e7;
+}
+
+/*건강검진 결과 부분*/
+.checkup_list_wrap {
+  background-color: var(--gray-0);
+  margin: 20px;
+  padding: 28px 16px;
+  gap: 24px;
+}
+
+.checkup_title_wrap {
+  margin: 24px 20px 12px;
+}
+.checkup_title_wrap > ul > li {
+  height: 24px;
+}
+
+/* 건강검진 결과값 리스트 ul wide 버전 */
+.checkup_unit_wrap {
+  background-color: var(--gray-0);
+  padding: 0 16px;
+}
+.checkup_unit_wrap_etc {
+  background-color: var(--gray-0);
+  padding: 32px 20px;
+  padding: 0 16px;
+}
+
+/* 건강검진 결과값 리스트 ul 시력, 청력 버전 */
+.checkup_unit_wrap2 {
+  gap: 8px;
+}
+
+/* 건강검진 결과값 리스트 ul 혈압 버전 */
+.checkup_unit_wrap3 {
+  gap: 8px;
+  background-color: var(--gray-0);
+}
+
+/* 건강검진 결과값 리스트 li */
+.checkup_unit_list {
+  padding: 10px 0;
+  height: 56px;
+}
+.checkup_unit_list_etc {
+  width: 50%;
+  height: 48px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* 계측검사 box */
+.checkup_unit_warp {
+  background-color: #f7f9fd;
+  padding: 0 16px;
+}
+
+.checkup_unit_list2 {
+  background-color: var(--gray-0);
+  border: 1px solid var(--gray-10);
+  padding: 16px;
+  width: 100%;
+}
+
+.checkup_title_left {
+  height: 25px;
+}
+.checkup_title_left2 {
+  font-size: var(--font-15);
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.checkup_title_left > span {
+  color: var(--gray-50);
+}
+.checkup_unit_right {
+  justify-content: flex-end;
+  align-items: center;
+  height: 25px;
+}
+.checkup_unit_value {
+  margin-right: 2px;
+  margin-left: 6px;
+}
+
+.normal {
+  color: #0d9f4c;
+}
+.warning {
+  color: var(--or);
+}
+.error {
+  color: var(--rd);
+}
+.checkup_normal_box {
+  background-color: #c7f7c7;
+  color: #0d9f4c;
+  align-items: center;
+  justify-content: center;
+}
+.checkup_normal_box > span {
+  color: #0d9f4c;
+}
+.checkup_warning_box {
+  background-color: #fbebb7;
+  align-items: center;
+  justify-content: center;
+}
+.checkup_warning_box > span {
+  color: var(--or);
+}
+.checkup_error_box {
+  background-color: #ffd9d9;
+  align-items: center;
+  justify-content: center;
+}
+.checkup_error_box > span {
+  color: var(--rd);
+}
+
+/* 인포메이션 말풍선 */
+.ballon_wrap {
+  position: relative;
+}
+.ballon {
+  position: absolute;
+  background-color: #1e304b;
+  min-width: 197px;
+  top: 40px;
+  left: 14px;
+}
+.ballon_triangle {
+  position: absolute;
+  top: 32px;
+  left: 107.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 7.5px 8.99px 7.5px;
+  border-color: transparent transparent #1e304b transparent;
+}
+.ballon_2 {
+  position: absolute;
+  background-color: #1e304b;
+  min-width: 160px;
+  top: -7px;
+  right: 20px;
+}
+.ballon_3 {
+  position: absolute;
+  background-color: #1e304b;
+  min-width: 160px;
+  top: -7px;
+  right: 20px;
+}
+.ballon_triangle2 {
+  position: absolute;
+  top: -16px;
+  right: 96px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 7.5px 8.99px 7.5px;
+  border-color: transparent transparent #1e304b transparent;
+}
+.ballon_triangle3 {
+  position: absolute;
+  top: -16px;
+  right: 120px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 7.5px 8.99px 7.5px;
+  border-color: transparent transparent #1e304b transparent;
+}
+.absolute_ballon {
+  left: -30%;
+  top: 20px;
+  z-index: 200px;
+}
+
+/* 혈압 */
+.checkup_blood_pressure_wrap {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.checkup_blood_pressure_box {
+  padding: 0 16px 16px 16px;
+}
+.checkup_blood_pressure_inside {
+  padding: 0 16px;
+}
+.checkup_blood_pressure_inside2 {
+  height: 44px;
+}
+
+/* 하단 버튼*/
+// .bottom_button_wrap {
+//   padding: 12px 16px;
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+//   border-top: 1px solid var(--gray-30);
+//   background-color: var(--gray-0);
+// }
+.bottom_button {
+  width: 100%;
+
+  border-radius: var(--radius-8);
+  font-size: var(--font-15);
+  font-weight: var(--weight-semi-bold);
+  color: var(--gray-0);
+  height: 48px;
+  line-height: 48px;
+}
+.bottom_two_button_wrap {
+  padding: 0 20px 16px 20px;
+  width: 100%;
+}
+
+.button_common {
+  padding: 13px 0;
+  border-radius: var(--radius-8);
+}
+.button_primary {
+  background-color: #0cc25a;
+  color: var(--gray-0);
+}
+.color_0CC25A {
+  color: #0cc25a;
+}
+.background_0CC25A {
+  background-color: #0cc25a;
+}
+.button_secondary {
+  background-color: #eaf5eb;
+  color: #0c8c52;
+}
+
+.button_gray {
+  background-color: var(--gray-30);
+}
+
+/* 중간 버튼 */
+.center_pr_button {
+  padding: 18.5px 41.5px;
+  border-radius: var(--radius-8);
+  background-color: var(--pr);
+  color: var(--gray-0);
+  margin-top: 34px;
+}
+.center_pr_button2 {
+  width: 223px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: var(--radius-8);
+  background-color: var(--pr);
+  color: var(--gray-0);
+  margin-top: 34px;
+}
+
+/* 상단 : X + 텍스트*/
+.top_title_wrap {
+  align-items: center;
+  text-align: center;
+  padding: 12px 20px;
+  position: relative;
+}
+.top_title_wrap > span {
+  text-align: center;
+  align-items: center;
+  font-size: var(--font-17);
+  font-weight: var(--weight-semi-bold);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.top_title_wrap_2 {
+  padding: 12px 20px;
+}
+.top_left_close {
+  position: fixed;
+  left: 20px;
+}
+.top_right_more {
+  position: fixed;
+  right: 20px;
+}
+
+/* 검진 항목 추가 */
+.label_input_wrap {
+  margin: 24px 20px 0px;
+}
+.input_text {
+  background-color: var(--gray-5);
+  padding: 18.5px 16px;
+}
+.input_text::placeholder {
+  color: var(--gray-50);
+}
+
+/* 병원/약국 이용 기록 */
+.usage_records_empty {
+  gap: 24px;
+  align-items: center;
+  margin-top: 88px;
+}
+
+/* 내 진료 : 상단 */
+.my_care_padding {
+  padding: 16px 20px;
+}
+
+/* 내 진료 : 탭 */
+.tab_underline_on {
+  height: 2px;
+  background-color: var(--gray-80);
+}
+.tab_underline_off {
+  height: 2px;
+  background-color: var(--gray-10);
+}
+.tab_padding {
+  padding: 16.5px 0;
+}
+.tab_padding_2 {
+  padding: 8px 0;
+}
+.tab_width {
+  width: 50%;
+}
+
+.checkup_inside_title {
+  height: 40px;
+  line-height: 40px;
+}
+
+/* 딤처리 */
+.dimmed {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+.dimmed2 {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+/* 팝업 */
+.popup_wrap {
+  position: fixed;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 200;
+  padding: 40px 24px 24px 24px;
+  min-width: 327px;
+}
+
+/* 바텀시트 */
+.bottom_sheet_wrap {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 200;
+  width: 100%;
+  background-color: var(--gray-0);
+  border-top-right-radius: var(--radius-20);
+  border-top-left-radius: var(--radius-20);
+}
+.checkup_empty_confirm {
+  padding: 12px 0 24px;
+}
+
+/* 간편인증 */
+.easy_login_certification {
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 46px;
+}
+
+/* 전체 동의하기 */
+.all_agreement_wrap {
+  padding: 18px 16px;
+  margin: 8px 20px;
+  background-color: var(--gray-5);
+}
+.agreement_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.agreement_list > label {
+  width: calc(100% - 23px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.certification {
+  border: 2px solid var(--gray-0);
+}
+
+/* 체크박스 */
+.chk_box {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+}
+
+/* 기본 체크박스 숨기기 */
+.chk_box input[type='checkbox'] {
+  display: none;
+}
+
+/* 선택되지 않은 체크박스 스타일 꾸미기 */
+.chk_on {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--gray-40);
+  border-radius: 2px;
+  top: 0;
+  left: 0;
+  margin-top: 3px;
+  position: absolute;
+}
+.chk_on_after {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+
+/* 선택된 체크박스 스타일 꾸미기 */
+.chk_box input[type='checkbox']:checked + .chk_on {
+  background-color: #0cc25a;
+  border: 1px solid #0cc25a;
+  border-radius: 2px;
+}
+.chk_box input[type='checkbox']:checked + .chk_on:after {
+  display: block;
+}
+
+.agreement_wrap {
+  margin: 0 20px 40px;
+  padding: 0 16px;
+}
+.agreement_wrap_2 {
+  margin: 0 20px 40px;
+}
+.agreement_view {
+  width: 23px;
+  color: #2386e9;
+}
+
+/* 카카오 인증*/
+.certification_kakao {
+  gap: 24px 20px;
+}
+.cetification_step_wrap {
+  margin: 64px 20px 40px;
+}
+.certification_step {
+  background-color: var(--gray-5);
+  padding: 12px;
+}
+/* 내 진료 기록 불러오기 완료 */
+.usage_records_wrap {
+  padding: 32px 20px;
+  background-color: var(--gray-5);
+}
+.usage_records_list {
+  background-color: var(--gray-0);
+  padding: 16px;
+  gap: 12px 16px;
+}
+
+.usage_little_button {
+  width: 78px;
+  padding: 4.5px 6px;
+}
+
+/* 일반 외래 */
+.outpatient_wrap {
+  background-color: #f5faff;
+  border: 1px solid rgba(35, 134, 233, 0.15);
+}
+.outpatient {
+  color: var(--bl);
+}
+
+/* 처방조제 */
+.prescription_wrap {
+  background-color: #fff8f3;
+  border: 1px solid rgba(231, 108, 0, 0.1);
+}
+.prescription {
+  color: #e97100;
+}
+
+/* '복약 등록' 버튼 */
+.pill_add_button {
+  border: 1px solid var(--gray-20);
+  padding: 5px 8px;
+}
+
+/* 처방전 리스트 박스 */
+.pill_list {
+  padding: 16px 12px;
+}
+.pill_button {
+  padding: 10px 8px;
+  border: 1px solid var(--gray-10);
+}
+.pill_list_title {
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.pill_explanation {
+  margin: 0 20px 24px;
+  padding: 24px 16px 24px 30px;
+}
+.pill_explanation > li {
+  list-style-type: disc;
+}
+.pill_name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.pill_name_img {
+  margin: 8px 20px 20px;
+}
+
+/* 임시 그래프 영역 */
+.graph_56 {
+  width: 46px;
+  height: 46px;
+  background-color: blueviolet;
+}
+.graph {
+  height: 157px;
+  background-color: salmon;
+}
+.graph_150 {
+  width: 150px;
+  height: 150px;
+  background-color: salmon;
+}
+.loading_bar {
+  width: calc(100% - 40px);
+  height: 40px;
+  margin-top: 120px;
+}
+.loading_bar_absolute {
+  position: absolute;
+  left: 50px;
+  bottom: -22px;
+  width: 100px;
+  transform: translate(-50%, -50%);
+  height: 40px;
+}
+.graph_absolute {
+  position: absolute;
+  left: 42px;
+  bottom: 38px;
+}
+.graph_line {
+  height: 35px;
+  background-color: cadetblue;
+}
+.little_button_common {
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+.little_button_warning {
+  color: var(--or);
+  background-color: #fff7db;
+}
+.little_button_normal {
+  color: #0c8c52;
+  background-color: #dbfddb;
+}
+.blood_pressure_unit_wrap {
+  align-items: baseline;
+}
+
+.blood_pressure_list_wrap {
+  padding: 16px 8px;
+}
+.blood_pressure_list {
+  padding: 16px 4px;
+}
+.checkup_opinion {
+  margin: 40px 20px 24px;
+}
+.health_age_little_box {
+  height: 43px;
+  padding: 8px 0 8px 12px;
+}
+.health_age_little_box_warning {
+  background-color: #fff7e9;
+}
+
+.prediction_body_button_common {
+  padding: 0px 10px;
+  min-width: 43px;
+  max-width: 54px;
+  height: 25px;
+  line-height: 25px;
+}
+.body_button_common {
+  z-index: 60;
+  position: absolute;
+}
+.body_normal {
+  right: 40px;
+  top: 145px;
+}
+.body_error {
+  right: 40px;
+  top: 425px;
+}
+.body_highdanger {
+  left: 40px;
+  top: 190px;
+}
+
+/* 질환별 예측 상세 페이지 */
+.prediction_tab_wrap {
+  padding: 0 20px;
+  border-bottom: 1px solid var(--gray-10);
+  height: 44px;
+}
+.prediction_tab > div:first-child {
+  line-height: 44px;
+  width: 60px;
+}
+.tab_padding_2 {
+  padding: 10.75px 0;
+  margin-bottom: -2px;
+}
+.tab_padding_3 {
+  padding: 10.75px 4px;
+  margin-bottom: -2px;
+}
+
+.prediction_date_wrap {
+  height: 44px;
+  padding: 0 20px;
+  position: relative;
+}
+.prediction_date {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.prediction_title_img_wrap {
+  padding: 24px 20px;
+}
+
+/* 질환별 예측확률 상세 페이지 예측 확률*/
+.prediction_percent_wrap {
+  padding: 24px 20px;
+  gap: 16px 32px;
+}
+.prediction_percent_list {
+  padding: 28px 20px;
+  gap: 28px;
+}
+.graph_percent {
+  width: 100%;
+  height: 109px;
+  background-color: khaki;
+}
+.prediction_percent_normal {
+  background-color: #dbfddb;
+  color: #0c8c52;
+}
+.prediction_percent_warning {
+  background-color: #ebf8d1;
+  color: #749220;
+}
+.prediction_percent_caution {
+  background-color: #fff7db;
+  color: var(--or);
+}
+.prediction_percent_error {
+  background-color: #ffece1;
+  color: #ff531f;
+}
+.prediction_percent_highdanger {
+  color: #f42a43;
+  background-color: #ffe7e7;
+}
+.prediction_level_wrap {
+  padding: 14px 0 4px;
+  gap: 12px 9px;
+}
+.level_text {
+  min-width: 20%;
+  width: 20%;
+}
+.percent_level_common {
+  height: 10px;
+  position: relative;
+  background-color: #e9ebee;
+}
+// .level1 {
+//   background-color: #0cc25a;
+// }
+// .level2 {
+//   background-color: #a2ce2c;
+// }
+.level3 {
+  background-color: #ffb226;
+}
+// .level4 {
+//   background-color: #fa7e49;
+// }
+// .level5 {
+//   background-color: #f42a43;
+// }
+.level_dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: var(--gray-0);
+  border-radius: 50%;
+  top: 50%;
+  left: 2.66px;
+  transform: translate(0, -50%);
+}
+.color_F7871B {
+  color: #f7871b;
+}
+.color_226DE7 {
+  color: #226de7;
+}
+.color_F67700 {
+  color: #f67700;
+}
+.level_sub_text {
+  text-align: right;
+  margin-top: 16px;
+}
+.list_style_type {
+  padding-left: 25px;
+}
+.list_style_type > li {
+  list-style-type: disc;
+}
+.list_style_type_2 {
+  padding-left: 20px;
+}
+.list_style_type_2 > li {
+  list-style-type: disc;
+}
+.list_style_type_3 {
+  padding-left: 20px;
+}
+.list_style_type_3 > li {
+  list-style-type: decimal;
+}
+
+.checkup_result_inside_wrap {
+  height: 44px;
+  border-bottom: 1px solid var(--gray-10);
+  padding: 7px 20px;
+}
+.checkup_result_inside_wrap2 {
+  height: 44px;
+  padding: 7px 0px;
+}
+.result_button_common {
+  min-width: 37px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 11.5px;
+  border-radius: 40px;
+}
+.result_button_on {
+  background-color: #0cc25a;
+  border: 1px solid #0cc25a;
+  color: var(--gray-0);
+}
+.result_button_off {
+  background-color: var(--gray-0);
+  border: 1px solid var(--gray-20);
+}
+.checkup_result_top_wrap {
+  padding: 32px 20px;
+}
+.checkup_result_unit_wrap {
+  border: 1px solid var(--gray-20);
+}
+.checkup_result_unit_wrap_hearing {
+  padding: 12px 8px 20px;
+}
+.result_unit_button_common {
+  padding-right: 10px;
+  padding-left: 10px;
+  min-width: 43px;
+  max-width: 65px;
+  height: 25px;
+  line-height: 25px;
+}
+.result_unit_button_normal {
+  color: #0c8c52;
+  background-color: #dbfddb;
+}
+.result_unit_button_warning {
+  color: var(--or);
+  background-color: #fff7db;
+}
+.result_unit_button_error {
+  color: #f42a43;
+  background-color: #ffe7e7;
+}
+.result_bottom_wrap {
+  padding: 32px 20px;
+}
+.result_message_wrap {
+  background-color: #f8f7ff;
+}
+.result_message_span {
+  color: #4322e7;
+}
+/* 건강검진 결과 BMI 정보 */
+.bmi_information {
+  background-color: #f8f8fc;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* 건강검진 결과 관련질병 : 비만 */
+.checkup_result_over_weight {
+  padding: 32px 20px 62px;
+}
+.related_disease {
+  border: 1px solid var(--gray-20);
+  padding: 0px 6px;
+  height: 25px;
+  line-height: 25px;
+  width: 61px;
+}
+.over_weight_button_common {
+  min-width: 80px;
+  height: 30px;
+  line-height: 30px;
+}
+.over_weight_button_1 {
+  color: #2c8a95;
+  border: 1px solid rgba(44, 138, 149, 0.2);
+  background-color: rgba(44, 138, 149, 0.05);
+}
+.over_weight_button_2 {
+  color: #009e57;
+  border: 1px solid rgba(0, 158, 87, 0.2);
+  background-color: rgba(0, 158, 87, 0.05);
+}
+.over_weight_button_3 {
+  color: #ff531f;
+  border: 1px solid rgba(255, 83, 31, 0.2);
+  background-color: rgba(255, 83, 31, 0.05);
+}
+.over_weight_button_4 {
+  color: #f42a43;
+  border: 1px solid rgba(244, 42, 67, 0.2);
+  background-color: rgba(244, 42, 67, 0.05);
+}
+.over_weight_button_5 {
+  border: 1px solid rgba(44, 138, 149, 0.2);
+  background-color: rgba(44, 138, 149, 0.05);
+}
+.over_weight_bmi_sub {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  width: 100%;
+}
+.bmi_example {
+  padding: 24px 16px;
+}
+.hearing_box > li {
+  padding: 8px;
+}
+.arrow_polygon_wrap {
+  margin: 12px 5.25px 24px;
+  width: 17.04px;
+  height: 56px;
+}
+.hearing_imoji_warp {
+  gap: 8px 12px;
+}
+.hearing_imoji_common {
+  width: 33px;
+  height: 20px;
+}
+.hearing_imoji_normal {
+  color: #0c8c52;
+  background-color: #dbfddb;
+}
+.hearing_imoji_error {
+  color: #f42a43;
+  background-color: #ffe7e7;
+}
+.result_blood_pressure_common {
+  height: 25px;
+  line-height: 25px;
+}
+.result_blood_pressure_normal {
+  width: 43px;
+  color: #0c8c52;
+  background-color: #dbfddb;
+}
+.result_blood_pressure_error {
+  width: 65px;
+  color: #e2354b;
+  background-color: #ffe7e7;
+}
+.checkup_sub_wrap {
+  padding: 28px 20px 32px;
+}
+.graph_blood_pressure_common {
+  min-width: 111px;
+  height: 30px;
+  line-height: 30px;
+  flex: 2;
+}
+.graph_bg_1_top {
+  height: 30px;
+  line-height: 30px;
+  flex: 1;
+}
+.graph_bg_2_top {
+  height: 30px;
+  line-height: 30px;
+  flex: 2;
+}
+.graph_bg_11 {
+  flex: 1 1;
+}
+.graph_bg_1 {
+  flex: 1;
+}
+.graph_bg_2 {
+  flex: 2;
+  height: 51px;
+}
+.flex_05 {
+  flex: 0.5;
+}
+.flex_1 {
+  flex: 1;
+}
+.flex_2 {
+  flex: 2;
+}
+.flex_21 {
+  flex: 2 1;
+}
+.full_height {
+  height: 100%;
+}
+.min_height_120 {
+  min-height: 120px;
+}
+.graph_height_30 {
+  height: 30px;
+  line-height: 30px;
+}
+.graph_cholestrol_left {
+  height: 30px;
+  line-height: 30px;
+  flex: 1.5;
+}
+.graph_cholestrol_left_ {
+  height: 98px;
+  flex: 1.5;
+}
+.graph_cholestrol_left_height {
+  height: 98px;
+  line-height: 98px;
+}
+.graph_cholestrol_right {
+  height: 30px;
+  line-height: 30px;
+  flex: 1 1;
+}
+.graph_cholestrol_right_height {
+  height: 30px;
+  line-height: 30px;
+}
+.graph_cholestrol_error {
+  color: #f42a43;
+  background-color: rgba(244, 42, 67, 0.05);
+  border: 1px solid rgba(244, 42, 67, 0.2);
+}
+.graph_cholestrol_threshold {
+  color: #f18826;
+  background-color: rgba(241, 136, 38, 0.05);
+  border: 1px solid rgba(241, 136, 38, 0.2);
+}
+.graph_cholestrol_normal {
+  color: #009e57;
+  background-color: rgba(0, 158, 87, 0.05);
+  border: 1px solid rgba(0, 158, 87, 0.2);
+}
+.graph_anemia_right_top {
+  flex: 0.5;
+}
+.graph_anemia_header {
+  height: 64px;
+  line-height: 64px;
+}
+.graph_anemia_content {
+  height: 93px;
+}
+.graph_anemia_content_slim {
+  height: 51px;
+}
+.graph_anemia_right {
+  flex: 0.5;
+}
+.graph_anemia_center {
+  flex: 1.5;
+}
+.graph_anemia_left {
+  flex: 1;
+}
+.checkup_loading_content {
+  color: #0d9f4c;
+}
+
+/* 건강검진 로딩 리스트 */
+.checkup_result_loading_list {
+  margin: 0 36px;
+}
+.checkup_result_loading_warp {
+  padding-top: 90px;
+}
+
+/* 프로그레스 인디케이터 */
+.progress_indicator_wrap {
+  position: relative;
+  padding: 8px 20px;
+}
+.progress_indicator_common {
+  z-index: 10;
+  background-color: #6094eb;
+  height: 6px;
+  position: absolute;
+}
+.progress_indicator_wrap_on {
+  width: 9%;
+}
+.progress_indicator_wrap_on_20 {
+  width: 18%;
+}
+.progress_indicator_wrap_on_30 {
+  width: 27%;
+}
+.progress_indicator_wrap_on_40 {
+  width: 36%;
+}
+.progress_indicator_wrap_on_50 {
+  width: 45%;
+}
+.progress_indicator_wrap_on_60 {
+  width: 54%;
+}
+.progress_indicator_wrap_on_70 {
+  width: 63%;
+}
+.progress_indicator_wrap_on_80 {
+  width: 72%;
+}
+.progress_indicator_wrap_on_90 {
+  width: 81%;
+}
+.progress_indicator_wrap_on_100 {
+  width: 90%;
+}
+.progress_indicator_wrap_on_bl {
+  background-color: #6094eb;
+  width: 25%;
+  height: 6px;
+}
+.progress_indicator_wrap_bg {
+  width: 25%;
+  height: 6px;
+}
+.progress_indicator_wrap_on_bl_50 {
+  background-color: #6094eb;
+  width: 50%;
+  height: 6px;
+}
+.progress_indicator_wrap_bg_50 {
+  width: 50%;
+  height: 6px;
+}
+.progress_indicator_save {
+  padding: 4.5px 0;
+}
+.pregress_indicator_number_wrap {
+  width: 54px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: rgba(34, 109, 231, 0.1);
+  color: #226de7;
+}
+.pregress_indicator_number_wrap > span {
+  color: #226de7;
+}
+
+/* input 날짜 */
+.input_date_wrapper {
+  position: relative;
+}
+.input_select {
+  width: 100%;
+  padding: 10px 10px 10px 16px;
+  border: 1.5px solid var(--gray-20);
+  box-sizing: border-box;
+  height: 48px;
+}
+.input_normal {
+  width: 100%;
+  padding: 10px 40px 10px 16px;
+  border: 1.5px solid transparent;
+  background-color: var(--gray-5);
+  box-sizing: border-box;
+  height: 48px;
+}
+.input_normal::placeholder {
+  color: var(--gray-50);
+}
+.input_normal_2 {
+  width: 100%;
+  padding: 10px 10px 10px 16px;
+  border: 1.5px solid transparent;
+  background-color: var(--gray-5);
+  box-sizing: border-box;
+  height: 48px;
+}
+.input_normal_2::placeholder,
+.input_disabled::placeholder {
+  color: var(--gray-50);
+}
+.input_disabled {
+  width: 100%;
+  padding: 10px 10px 10px 16px;
+  background-color: var(--gray-20);
+  border: 1.5px solid #d8d8d8;
+}
+
+.input_normal_another {
+  width: 100%;
+  padding: 10px 40px 10px 16px;
+  border: 1.5px solid transparent;
+  box-sizing: border-box;
+  height: 48px;
+}
+.input_normal::placeholder,
+.input_left::placeholder {
+  color: var(--gray-50);
+}
+.input_left {
+  padding: 10px 10px 10px 50px;
+  background-color: var(--gray-5);
+  box-sizing: border-box;
+  height: 48px;
+}
+.input_another {
+  width: 100%;
+  padding: 10px 40px 10px 16px;
+  border: 1.5px solid transparent;
+  background-color: var(--gray-5);
+  box-sizing: border-box;
+  height: 48px;
+}
+.input_another::placeholder {
+  color: var(--gray-90);
+}
+.input_normal_background_10 {
+  border: 1.5px solid transparent;
+  background-color: var(--gray-10);
+  box-sizing: border-box;
+  height: 48px;
+  margin: 12px 20px;
+  width: calc(100% - 40px);
+  padding-left: 16px;
+}
+.date_img {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.date_img_another {
+  position: absolute;
+  top: 50%;
+  right: 36px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.input_unit {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+.input_search {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
+.checkup_input_all_wrap {
+  margin: 48px 0 62px;
+  padding: 0 20px;
+}
+.checkup_input_all_wrap_2 {
+  margin: 32px 20px;
+}
+
+/* input 청력 */
+.hearing_button_wrap {
+  height: 40px;
+}
+.hearing_button_wrap div {
+  line-height: 40px;
+}
+.hearing_button_left_off {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid var(--gray-20);
+}
+.hearing_button_right_off {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid var(--gray-20);
+}
+.hearing_button_right_on {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #0d9f4c;
+  background-color: #e7faef;
+  border: 1px solid #0cc25a;
+}
+.hearing_button_error {
+  color: #f42a43;
+  background-color: #ffeaec;
+  border: 1px solid #ff5e73;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.hearing_button_normal {
+  color: #0d9f4c;
+  background-color: #e7faef;
+  border: 1px solid #0cc25a;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.checkup_input_bottom_wrap {
+  position: fixed;
+  bottom: 0;
+}
+.checkup_input_bottom {
+  height: 72px;
+  padding: 12px 20px;
+  border-top: 1px solid var(--gray-20);
+  position: relative;
+}
+.checkup_input_common {
+  width: 90px;
+  height: 48px;
+}
+.checkup_input_next {
+  background-color: var(--pr);
+  position: absolute;
+  right: 20px;
+}
+.checkup_input_etc {
+  height: 70px;
+}
+.popup_button_common {
+  width: 135.5px;
+  height: 48px;
+}
+.unit_select_box {
+  padding: 12px 20px;
+}
+.success_fail {
+  width: 90px;
+}
+
+.color_0D9F4C {
+  color: #0d9f4c;
+}
+.calendar_top_date {
+  padding: 0 20px 16px;
+}
+.health_care_button_common {
+  min-width: 43px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 100px;
+}
+.health_care_button_error {
+  background-color: #fff7db;
+  color: var(--or);
+}
+.health_care_button_off {
+  width: 47px;
+}
+.health_care_button_off_2 {
+  width: 33px;
+}
+.blood_sugar_list_box {
+  border-bottom: 1px solid var(--gray-10);
+  padding: 16px 4px;
+}
+.health_care_question {
+  margin: 20px 0;
+}
+.health_care_more_popup {
+  z-index: 200;
+  position: fixed;
+  right: 18px;
+  top: 84px;
+  margin: 4px 0;
+  width: 104px;
+  height: 88px;
+}
+.health_care_more_popup_2 {
+  width: 134px;
+}
+.health_care_more_popup_another {
+  z-index: 200;
+  position: fixed;
+  right: 18px;
+  top: 84px;
+  margin: 4px 0;
+  width: 74px;
+  height: 48px;
+}
+.insulin_box {
+  margin: 16px 20px 24px;
+}
+.memo_box {
+  margin: 24px 20px 90px;
+}
+.memo_textarea {
+  height: 103px;
+  resize: none;
+  padding: 20px 16px;
+}
+.memo_textarea::placeholder {
+  color: var(--gray-50);
+}
+input:focus,
+textarea:focus,
+input:active,
+textarea:active {
+  outline: 1.5px solid var(--gray-90);
+}
+.health_care_target_box {
+  padding: 40px 20px 90px;
+}
+.history_date_tab_wrap {
+  height: 38px;
+  padding: 4px;
+}
+.history_date_tab_wrap > li {
+  width: 33.33%;
+  height: 30px;
+  line-height: 30px;
+}
+.history_date_tab_wrap_2 > li {
+  width: 50%;
+}
+.history_date_tab_wrap_3 {
+  padding: 4px;
+}
+.history_date_tab_wrap_3 > li {
+  height: 38px;
+  line-height: 38px;
+  width: 50%;
+}
+
+.health_care_weight_rd {
+  background-color: rgba(244, 42, 67, 0.05);
+}
+.health_care_weight_bl {
+  background-color: rgba(34, 109, 231, 0.08);
+}
+
+.taking_medication_box {
+  padding: 40px 20px 24px;
+}
+.taking_medication_indicator {
+  padding: 0 20px;
+  // margin-bottom: 40px;
+}
+.taking_medication_chip_wrap {
+  flex-wrap: wrap;
+}
+.taking_medication_chip {
+  min-width: 74px;
+  width: 100%;
+}
+.taking_medication_list_wrap {
+  padding: 0 20px;
+}
+.taking_medication_list {
+  border-bottom: 1px solid var(--gray-10);
+}
+.taking_medication_list > .display_flex_row {
+  min-width: 0;
+}
+.taking_medication_tab > div {
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+}
+.taking_medication_tab_on {
+  border: 1px solid var(--pr);
+  color: var(--pr);
+  background-color: #e7faef;
+}
+.taking_medication_tab_left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.taking_medication_tab_right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.taking_medication_tab_week div {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: var(--weight-medium);
+  border-radius: 100%;
+}
+.taking_medication_tab_week_off {
+  background-color: var(--gray-10);
+}
+.taking_medication_tab_week_on {
+  background-color: var(--pr);
+  color: var(--gray-0);
+}
+.interval_wrap_common {
+  height: 48px;
+  padding: 14px 16px;
+  border: 1px solid transparent;
+}
+.interval_wrap_on {
+  background-color: #f2faf7;
+  border: 1px solid #eaf5eb;
+}
+
+/* 체크박스 */
+.chk_box {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+}
+
+/* 기본 체크박스 숨기기 */
+.chk_box input[type='checkbox'] {
+  display: none;
+}
+
+/* 선택되지 않은 체크박스 스타일 꾸미기 */
+.chk_circle_on {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--gray-40);
+  background-color: var(--gray-0);
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 3px;
+}
+
+/* 선택된 체크박스 스타일 꾸미기 */
+.chk_box input[type='checkbox']:checked + .chk_circle_on {
+  background-color: #0cc25a;
+  border: 1px solid #0cc25a;
+  border-radius: 50px;
+}
+.chk_box input[type='checkbox']:checked + .chk_circle_on:after {
+  display: block;
+}
+.chk_circle_on:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  background: url(../public/img/checkbox_checked_on.svg) no-repeat;
+}
+
+.taking_medication_number {
+  width: 32px;
+}
+.popup_toast {
+  padding: 8.75px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-flex;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  min-width: 211px;
+}
+.taking_medication_ing_wrap {
+  padding: 24px 20px;
+}
+.taking_medication_pill_button {
+  background-color: #fff8f3;
+  border: 1px solid rgba(231, 108, 0, 0.1);
+  height: 25px;
+  line-height: 25px;
+  padding: 8px 6px;
+  width: 56px;
+}
+.taking_medication_pill_text {
+  color: #e97100;
+}
+.more_popup_common {
+  z-index: 200;
+  position: fixed;
+  right: 36px;
+  top: 186px;
+  margin: 4px 0;
+  width: 104px;
+}
+.interval_accordion {
+  padding: 6px 0;
+}
+.interval_button_common {
+  padding: 7px 6px;
+  width: 85px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 100px;
+}
+.interval_button_on {
+  background-color: #def4e0;
+  border: 1px solid #78c499;
+}
+.interval_button_on_text {
+  color: #05672f;
+}
+.taking_medication_list_wrap_height {
+  height: 100px;
+}
+.taking_medication_list_height {
+  height: 56px;
+}
+.specified_interval_common {
+  height: 48px;
+  padding: 0 16px;
+}
+.specified_interval_on {
+  background-color: #f2faf7;
+  border: 1px solid #eaf5eb;
+}
+.success_or_failure_common {
+  padding: 12px;
+}
+.success_or_success_on {
+  background-color: rgba(34, 109, 231, 0.08);
+}
+.success_or_failure_on {
+  background-color: rgba(244, 42, 67, 0.05);
+}
+.color_f42a43 {
+  color: #f42a43;
+}
+.no_dringking_result_title {
+  margin-left: 20px;
+  margin-top: 32px;
+}
+.meal_kcal {
+  width: 120px;
+}
+.tip_box {
+  margin-top: 24px;
+}
+.tip_box_2 {
+  padding: 12px;
+}
+.meal_search_box {
+  padding: 12px 20px;
+}
+
+.meal_list_on {
+  background-color: #f2faf7;
+  border: 1px solid #eaf5eb;
+}
+.meal_list_off {
+  border: 1px solid transparent;
+}
+.meal_list_detail {
+  border-bottom: 1px solid var(--gray-10);
+}
+.meal_kcal_width {
+  width: 110px;
+}
+.meal_number_picker {
+  padding: 4px 6px;
+  border-radius: 100px;
+}
+.meal_number_select {
+  width: 32px;
+}
+.meal_plus_button {
+  margin: 0 20px;
+  padding: 14px 16px;
+}
+.meal_plus_button > div {
+  line-height: 48px;
+  color: #0c8c52;
+}
+.meal_plus_page {
+  margin: 24px 20px;
+}
+.workout_list {
+  padding-left: 50px;
+}
+.profile_name {
+  margin-top: 3px;
+}
+.min_width_0 {
+  min-width: 0;
+}
+.profile_name_ellipsis {
+  display: block; /* 또는 inline-block */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.see_more_padding {
+  padding: 10px 0;
+}
+.see_more_health_record {
+  height: 52px;
+}
+.border_transparent {
+  border: 1px solid transparent;
+}
+.background_transparent {
+  background-color: transparent !important;
+}
+
+/* 토글 버튼 */
+.toggle_input {
+  display: none;
+}
+.toggle_label {
+  position: relative;
+  display: block;
+  width: 44px;
+  height: 22px;
+  background-color: var(--gray-30);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.toggle_label::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  background-color: var(--gray-0);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+/* 토글 ON 스타일 지정*/
+.toggle_input:checked + .toggle_label {
+  background-color: #0fce61;
+}
+/* 토글 ON인 경우에 버튼 위치 지정 */
+.toggle_input:checked + .toggle_label::before {
+  transform: translateX(22px);
+}
+.my_information_warp {
+  padding: 48px 20px;
+}
+.my_information_profile {
+  position: relative;
+}
+.profile_edit {
+  position: absolute;
+  right: 30%;
+  bottom: 4%;
+}
+.profile_number_edit_icon {
+  width: 53px;
+  height: 26px;
+}
+.no_drinking_success {
+  background-color: #ffecf0;
+}
+.no_drinking_failure {
+  background-color: #e5efff;
+}
+.bottom_sheet_no_drinking_wrap {
+  padding: 0px 28px 32px 28px;
+}
+.bottom_sheet_no_drinking_common {
+  height: 93px;
+}
+.color_F42A43 {
+  color: #f42a43;
+}
+.bg_F4605B {
+  background-color: #f4605b;
+}
+.success_left {
+  background-color: #387ff6;
+}
+.family_management_main {
+  padding: 24px 20px 12px 20px;
+}
+.red_dot_wrap {
+  position: relative;
+}
+.red_dot {
+  position: absolute;
+  right: 37px;
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #f42a43;
+  border-radius: 100px;
+}
+.red_dot_2 {
+  position: absolute;
+  right: -4px;
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #f42a43;
+  border-radius: 100px;
+}
+.family_add_button {
+  width: 170px;
+}
+.bg_linear_ECFBFF {
+  background: linear-gradient(
+    to bottom,
+    rgba(236, 251, 255, 0.9),
+    rgba(240, 252, 255, 0.1)
+  );
+}
+.bg_linear_F1F5FC {
+  background: linear-gradient(
+    to bottom,
+    rgba(240, 252, 255, 0.1),
+    rgba(241, 245, 252, 0.9)
+  );
+}
+.bg_linear_0CC25A {
+  background: linear-gradient(
+    to bottom,
+    rgba(12, 194, 90, 0.1),
+    rgba(240, 252, 255, 0.1)
+  );
+}
+.family_management_main_2 {
+  padding: 48px 20px 8px;
+}
+.family_relationship_box {
+  padding: 16px 20px 20px;
+}
+.family_button_common {
+  padding: 0 6px;
+  height: 25px;
+  min-width: 56px;
+  max-width: 68px;
+  flex-shrink: 0;
+}
+.family_button {
+  background-color: #f5faff;
+  border: 1px solid rgba(35, 134, 233, 0.15);
+}
+.color_17959C {
+  color: #17959c;
+}
+.family_button_2 {
+  background-color: #f5faff;
+  border: 1px solid rgba(63, 184, 190, 0.15);
+}
+.family_button_3 {
+  background-color: #fff8f3;
+  border: 1px solid rgba(231, 108, 0, 0.1);
+}
+.color_8F4BCB {
+  color: #8f4bcb;
+}
+.family_button_4 {
+  background-color: #fbf5ff;
+  border: 1px solid rgba(179, 128, 224, 0.15);
+}
+.family_view_box {
+  padding: 8px 16px 20px;
+}
+.family_name {
+  flex-grow: 1;
+  min-width: 0;
+}
+.flex_shrink_0 {
+  flex-shrink: 0;
+}
+.family_management_edit {
+  margin: 32px 20px;
+}
+.recommend_button {
+  padding: 0 6px;
+  height: 20px;
+  border-radius: 20px;
+}
+.color_F35064 {
+  color: #f35064;
+}
+.color_2386E9 {
+  color: #2386e9;
+}
+.family_confirm_box {
+  background-color: #f7f9fd;
+  margin: 120px 20px;
+}
+.identity_verification_number_select {
+  width: 100px;
+}
+.color_2AC96E {
+  color: #2ac96e;
+}
+.customer_center_main_box {
+  padding: 40px 20px 32px;
+}
+.background_EAF5EB {
+  background-color: #eaf5eb;
+}
+.customer_center_inside_box {
+  padding: 16px 20px 24px;
+}
+.customer_center_tab_wrap {
+  width: 100%;
+  box-sizing: border-box;
+}
+// .notice_tab_1 {
+//   padding: 0 2px;
+// }
+.notice_tab_1 {
+  width: 34px;
+}
+.notice_tab_2 {
+  width: 60px;
+}
+.notice_tab_3 {
+  width: 47px;
+}
+.notice_tab_inner {
+  padding: 10.75px 0px;
+}
+.notice_tab_wrap {
+  width: 100%;
+  box-sizing: border-box;
+}
+.tab_flex_grow {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.multi_line_text {
+  white-space: normal; /* 줄 바꿈 허용 */
+  word-break: break-word; /* 단어가 길면 줄바꿈 */
+}
+.color_5967B4 {
+  color: #5967b4;
+}
+.answer_box {
+  padding: 0 6px;
+  border-radius: 10px;
+}
+.inquiry_box {
+  padding: 16px 0 20px;
+}
+.textarea {
+  resize: none;
+  height: 258px;
+}
+.textarea_2 {
+  resize: none;
+  height: 110px;
+}
+.textarea::placeholder,
+.textarea_2::placeholder {
+  color: var(--gray-50);
+}
+.inquiry_photo_box {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  background: #f5f5f5;
+  position: relative;
+}
+
+.inquiry_close_button {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+.inquiry_box_2 {
+  padding: 20px 20px 32px;
+}
+.answer_content {
+  word-break: break-word;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.graph_line_wrap div {
+  height: 17px;
+  position: relative;
+}
+.graph_line_wrap div span {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.graph_48 {
+  width: 48.2%;
+  background-color: #39c676;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.graph_27 {
+  width: 27.5%;
+  background-color: #4c99e5;
+}
+.graph_24 {
+  width: 24.3%;
+  background-color: #f39a47;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.kcal_g_wrap {
+  width: 96px;
+  height: 21px;
+  border-radius: 20px;
+}
+.kcal_box {
+  width: 48px;
+}
+.g_box {
+  width: 48px;
+  border-radius: 20px;
+}
+.login_wrap {
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+}
+.login_kakao {
+  background-color: #ffe812;
+}
+.login_naver {
+  background-color: #03cf5d;
+}
+
+.ballon_login_wrap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px; /* 삼각형 공간 확보 */
+}
+.ballon_login_wrap2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px; /* 삼각형 공간 확보 */
+}
+
+.ballon_login {
+  position: relative;
+  width: 180px;
+  padding: 6.75px 16px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 12px;
+}
+.ballon_login_2 {
+  width: 106px;
+  margin-bottom: 8px;
+}
+
+/* 삼각형: 그림자 없이 말풍선 안쪽에서 처리 */
+.ballon_login_triangle {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+}
+.ballon_login_triangle2 {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+.login_logo_wrap {
+  margin-top: 130px;
+}
+.agreement_left {
+  padding-left: 26px;
+}
+.login_complete_img_wrap {
+  margin-top: 118px;
+}
+.login_complete_img {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.bottom_button_wrap {
+  padding: 12px 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--gray-0);
+}
+.bottom_button_wrap_pr {
+  padding: 12px 16px;
+  position: fixed;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+.skip {
+  text-decoration: underline;
+  margin: 30px 0;
+}
+.text_underline {
+  text-decoration: underline;
+}
+.skip_fixed {
+  position: fixed;
+  bottom: 0;
+}
+.notice_list {
+  padding: 20px 0px;
+  margin: 0 20px;
+}
+.color_E66B49 {
+  color: #e66b49;
+}
+.notice_event_tab_wrap {
+  padding: 7px 20px;
+}
+.notice_empty_relative {
+  position: relative;
+}
+.notice_empty_absolute {
+  position: absolute;
+  left: 50%;
+  top: 220px;
+  transform: translate(-50%, 0%);
+}
+.notice_detail_content {
+  padding: 32px 20px;
+}
+.service_termination_wrap {
+  position: relative;
+  padding-bottom: 72px;
+}
+.service_termination {
+  position: fixed;
+  bottom: 12px;
+  left: 20px;
+  right: 20px;
+}
+.quit_top_wrap {
+  padding: 48px 20px;
+}
+.quit_text_box {
+  background-color: #fff5f6;
+}
+.quit_text_box_2 {
+  padding: 16px 20px 32px;
+}
+.alarm_tab {
+  padding: 0 8px;
+}
+.alarm_service {
+  padding: 24px 20px 16px;
+}
+.background_F1F5FF {
+  background-color: #f1f5ff;
+}
+.onboading_json_box {
+  margin-top: 53px;
+  width: 100%;
+  height: 316px;
+  background-color: salmon;
+}
+.onboading_text_box {
+  margin-top: 45px;
+}
+.onboading_dot_wrap {
+  margin-top: 32px;
+}
+.health_doctor_json_box {
+  position: relative;
+  width: 100%;
+  height: 248px;
+  background-color: khaki;
+}
+.health_doctor_json_text {
+  position: absolute;
+  bottom: 44px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.chatbot_right {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  min-width: 0;
+  max-width: 240px;
+}
+.chatbot_left {
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  min-width: 0;
+  max-width: 240px;
+}
+.overflow_auto {
+  overflow-y: auto;
+}
+.to_up_arrow {
+  position: fixed;
+  right: 16px;
+  bottom: 62px;
+}
+.circle_box {
+  padding: 16px 24px;
+}
+.color_0C8C52 {
+  color: #0c8c52;
+}
+.agreement_wrap_3 {
+  margin-top: 56px;
+  padding: 0 20px;
+}
+.ai_report_top {
+  padding: 32px 20px 32px;
+}
+.ai_report_box {
+  padding: 32px 20px 40px;
+}
+.together_box {
+  padding: 16px 16px 24px 16px;
+}
+.splash_relative {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.splash_absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.splash_absolute2 {
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  transform: translate(-50%, 0);
+}
+.splash_absolute_top {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+}
+.position_absolute_ocr {
+  position: absolute;
+  bottom: 86px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.position_relative {
+  position: relative;
+}
+.position_absolute {
+  position: absolute;
+}
+.frame_left_top {
+  left: 20px;
+  top: 20px;
+}
+.frame_right_top {
+  right: 20px;
+  top: 20px;
+}
+.frame_left_bottom {
+  left: 20px;
+  bottom: 20px;
+}
+.frame_right_bottom {
+  right: 20px;
+  bottom: 20px;
+}
+.position_camera_outline {
+  position: fixed;
+  width: 67px !important;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.position_fixed_save {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+}
+.camera_save_box {
+  background-color: var(--rd);
+  width: 42px;
+}
+.position_fixed_reverse {
+  position: fixed;
+  left: 20px;
+  bottom: 30px;
+}
+.position_fixed_bg {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.camera_photo_box {
+  width: 75px;
+  height: 100px;
+}
+
+.message_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  color: #333;
+}
+.message_container div {
+  font-size: 1.5rem;
+}
+
+.msg {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade_slide 1s ease-out forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.msg:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.msg:nth-child(2) {
+  animation-delay: 1.2s;
+}
+
+@keyframes fade_slide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.shutter-btn {
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+  border: none;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  /* 외곽 테두리 + 그라디언트 */
+  background: radial-gradient(circle at 50% 50%, #fff 30%, #ddd 100%);
+  transition: filter 160ms ease;
+}
+
+/* 안쪽 링 + 조리개 느낌 */
+.shutter-btn::before {
+  content: '';
+  position: absolute;
+  inset: var(--rim);
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, #eee 62%, rgba(0, 0, 0, 0) 63%),
+    repeating-conic-gradient(
+      from 15deg,
+      rgba(0, 0, 0, 0.05) 0 10deg,
+      rgba(0, 0, 0, 0) 10deg 60deg
+    );
+  pointer-events: none;
+}
+
+/* 클릭 시 번쩍 + 내부 회전 */
+.shutter-btn:active {
+  filter: brightness(1.05) contrast(1.05);
+}
+.shutter-btn:active::before {
+  animation: iris 140ms ease both;
+}
+.shutter-btn:active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 0.85),
+    rgba(255, 255, 255, 0) 55%
+  );
+  opacity: 0;
+  animation: snap 160ms ease-out forwards;
+}
+
+/* 포커스 스타일 */
+.shutter-btn:focus-visible {
+  outline: 2px solid rgba(90, 167, 255, 0.5);
+  outline-offset: 4px;
+}
+
+/* 애니메이션 */
+@keyframes iris {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+@keyframes snap {
+  0% {
+    opacity: 0.85;
+    transform: scale(0.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+.bubble_wrap {
+  position: relative;
+}
+.bubble_wrap > img {
+  position: absolute;
+}
+.bubble1 {
+  left: 20px;
+  top: 40px;
+}
+.bubble2 {
+  right: 20px;
+  top: 170px;
+}
+.bubble3 {
+  left: 20px;
+  top: 320px;
+}
+.ai_grandmother_wrap {
+  margin-top: 40px;
+}
+.number_around {
+  margin-top: 50px;
+}
+.color_FFF200 {
+  color: #fff200;
+}
+.display_inline_block {
+  display: inline-block;
+}
+.align_items_flex_start {
+  align-items: flex-start;
+}
+.position_absolute_ai_doctor {
+  position: fixed;
+  bottom: 70px;
+  left: 20px;
+}
+.healthage-scope .jackpot {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.healthage-scope .reel {
+  position: relative;
+  overflow: hidden;
+  width: var(--s);
+  height: var(--s);
+  background: var(--gray-10);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  flex: 0 0 auto;
+  border-radius: var(--radius-8);
+  margin-top: 16px;
+}
+.healthage-scope .track {
+  will-change: transform;
+}
+.healthage-scope .cell {
+  width: var(--s);
+  height: var(--s);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--weight-semi-bold);
+  font-size: calc(var(--s) * 0.52);
+}
+@media (prefers-reduced-motion: reduce) {
+  .healthage-scope .track {
+    transition: none !important;
+    transform: translateY(0) !important;
+  }
+}
+.border_6094EB {
+  border: 1.5px solid #6094eb;
+}
+.background_6094EB {
+  background-color: #6094eb;
+}
+.position_ox_bottom {
+  bottom: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.background_F42A43 {
+  background-color: rgba(244, 42, 67, 0.05);
+}
+.more_popup_common2 {
+  z-index: 200;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  margin: 4px 0;
+  width: 136px;
+}
+.color_C0392B {
+  color: #c0392b;
+}
+.background_66BB6A {
+  background-color: #66bb6a;
+}
+.backgoround_B9C7BF {
+  background-color: #b9c7bf;
+}
+.border_54E420 {
+  border: 1px solid #54e420;
+}
+.border_0CC25A {
+  border: 1px solid #0cc25a;
+}
+.background_E7FAEF {
+  background-color: #e7faef;
+}
+.background_EAF0F5 {
+  background-color: #eaf0f5;
+}
+.width_calc_40 {
+  width: calc(100% - 40px);
+}
+
+.dimmed2 {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 100;
+}
+
+.coachmark_container {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coachmark_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(16px, 2vh, 32px);
+  text-align: center;
+  max-width: 90vw;
+}
+
+.dimmed_close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.dimmed_text {
+  line-height: 1.4;
+}
+
+.dimmed_img {
+  max-width: 279px;
+  width: 70vw;
+  height: auto;
+}
+
+.dimmed_img2,
+.dimmed_img3 {
+  max-width: 340px;
+  width: 70vw;
+  height: auto;
+}
+.color_00E563 {
+  color: #00e563;
+}
+.background_FAE7E7 {
+  background-color: #fae7e7;
+}
+.img_opacity_80 {
+  opacity: 0.8;
+}
+.background_B9BBC7 {
+  background-color: #b9bbc7;
+}
+.background_C5B9C7 {
+  background-color: #c5b9c7;
+}
+.meal_select_normal {
+  width: 82px;
+  height: 82px;
+  border-radius: 50px;
+}
+.swipe_absolute {
+  left: 50%;
+  top: 36%;
+  transform: translate(-50%, 0);
+  animation: blink 1.5s;
+  animation-iteration-count: 3;
+}
+@keyframes blink {
+  0% {
+    opacity: 1; /* 시작 시에는 보임 */
+  }
+  50% {
+    opacity: 0; /* 중간에는 투명해짐 */
+  }
+  100% {
+    opacity: 1; /* 끝에서는 다시 보임 */
+  }
+}
+.color_2C8A95 {
+  color: #2c8a95;
+}
+.meal_grid {
+  display: grid !important;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-auto-rows: auto;
+  gap: 4px;
+  align-items: stretch;
+}
+
+.meal_grid > ul {
+  display: contents !important;
+}
+
+.meal_grid > ul > li {
+  height: auto;
+  line-height: normal;
+  padding: 8px 12px;
+}
+
+.meal_grid > ul > li.graph_bg_1_top,
+.meal_grid > ul > li.graph_blood_pressure_common {
+  height: 30px;
+  line-height: 30px;
+}
+
+.meal_grid > ul:not(:first-child) > li:last-child {
+  display: none;
+}
+
+.meal_grid > ul:nth-of-type(2) > li:last-child {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  grid-row: 2 / span 4;
+  grid-column: 3;
+}
+.coachmark_bottom {
+  position: fixed;
+  left: 50%;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  z-index: 210;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.coachmark_close_button {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  border-radius: var(--radius-8);
+  font-size: var(--font-15);
+  font-weight: var(--weight-semi-bold);
+  color: var(--gray-0);
+}
+.empty_message {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
