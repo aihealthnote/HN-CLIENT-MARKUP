@@ -154,6 +154,12 @@ import AiRecommendSelect from './pages/ai_recommend_select';
 import AiRecommendView from './pages/ai_recommend_view';
 import FamilyManagementAddContact from './pages/family_management_add_contact';
 import FamilyManagementAddEmpty from './pages/family_management_add_empty';
+import LoginInput from './pages/login_input';
+import JoinTheMembership from './pages/join_the_membership';
+import JoinTheMembership2 from './pages/join_the_membership_2';
+import FindId from './pages/find_id';
+import FindPw from './pages/find_pw';
+import FindPw2 from './pages/find_pw_2';
 
 const Home = () => <h2>Home Page</h2>;
 function App() {
@@ -510,6 +516,12 @@ function App() {
           path="/family_management_add_empty"
           element={<FamilyManagementAddEmpty />}
         />
+        <Route path="/login_input" element={<LoginInput />} />
+        <Route path="/join_the_membership" element={<JoinTheMembership />} />
+        <Route path="/join_the_membership_2" element={<JoinTheMembership2 />} />
+        <Route path="/find_id" element={<FindId />} />
+        <Route path="/find_pw" element={<FindPw />} />
+        <Route path="/find_pw_2" element={<FindPw2 />} />
       </Routes>
     </Router>
   );
