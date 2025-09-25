@@ -136,6 +136,10 @@ export default function HealthCareMealInput() {
           </div>
         </li>
       </ul>
+      <div className="font_12 color_gray_60 padding_8_20">
+        출처:식품안전나라 영양성분 DB, 2020 한국인 영양소 섭취기준, KDCA
+        영양표시
+      </div>
       <div className="health_care_question display_flex_column text_align_center  gap_20 align_items_center">
         <img
           src="/img/health_care_question.svg"

@@ -201,6 +201,39 @@ export default function TakingMedicationInput2() {
           </div>
           <img src="/img/check_circle_gr.svg" width="24" height="24"></img>
         </div>
+        <ul className="list_style_type padding_12_20">
+          <li className="font_12 weight_regular color_gray_60">
+            참고용 정보입니다. 최종 복용 지시는 처방전·약국 라벨을 따르세요.
+          </li>
+          <li className="font_12 weight_regular color_gray_60">
+            동일 성분/함량/제형인지 항상 확인하세요. 상호작용·금기 정보는
+            완전하지 않을 수 있습니다.
+          </li>
+          <li className="font_12 weight_regular color_gray_60">
+            출처 : 의약품안전나라, 식품의약품안전처 참고. 최신 정보는
+            처방전·첨부문서·전문가 상담으로 확인하세요.
+          </li>
+          <li className="font_12 weight_regular color_gray_60">
+            링크 :{' '}
+            <a
+              href="https://nedrug.mfds.go.kr/index"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link_text font_13 weight_regular color_gray_50 text_underline"
+            >
+              의약품 안전나라 /
+            </a>
+            <a
+              href="https://www.pharm.or.kr/search/drugidfy/search.asp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link_text font_13 weight_regular color_gray_50 text_underline"
+            >
+              {' '}
+              식품의약품안전처
+            </a>
+          </li>
+        </ul>
       </div>
       <div className="checkup_input_bottom_wrap width_100 background_gray_0">
         <div className="checkup_input_bottom display_flex_row space_between">

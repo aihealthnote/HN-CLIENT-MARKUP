@@ -8,7 +8,7 @@ export default function TermsOfUse() {
           height="24px"
           alt="arrow left"
         ></img>
-        <span className="font_17 weight_semi_bold">이용약관 및 정책</span>
+        <span className="font_17 weight_semi_bold">약관 및 서비스 동의</span>
       </div>
       <div className="padding_40_20 display_flex_column gap_40">
         <div className="display_flex_row space_between ">

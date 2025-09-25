@@ -158,6 +158,10 @@ export default function HealthCareMealInput2() {
             </li>
           </ul>
         </div>
+        <div className="font_12 color_gray_60">
+          출처: 식품안전나라 영양성분 DB, 2020 한국인 영양소 섭취기준, KDCA
+          영양표시
+        </div>
       </div>
       <div className="checkup_input_bottom_wrap width_100 background_gray_0">
         <div className="checkup_input_bottom display_flex_row space_between">

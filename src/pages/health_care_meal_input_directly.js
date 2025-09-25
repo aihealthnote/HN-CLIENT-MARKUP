@@ -116,7 +116,9 @@ export default function HealthCareMealInputDirectly() {
         </div>
         <div className="display_flex_column color_gray_70 font_13 weight_regular justify_content_center">
           <div className="font_12 color_gray_60">
-            ※ 1kg 감량 시 필요 열량은 7,700kcal 입니다.
+            출처:식품안전나라 영양성분 DB, 2020 한국인 영양소 섭취기준, KDCA
+            영양표시
+            <br /> ※ 1kg 감량 시 필요 열량은 7,700kcal 입니다.
           </div>
         </div>
       </div>
@@ -236,11 +238,14 @@ export default function HealthCareMealInputDirectly() {
             </div>
           </div>
         </div>
-        <div className="display_flex_column color_gray_70 font_13 weight_regular justify_content_center">
+        <div className="display_flex_column color_gray_70 font_13 weight_regular justify_content_center margin_bottom_72">
           <div className="font_12 color_gray_60">
             ※ 칼로리 소모는 체중에 따라 영향을 받습니다.
             <br />
             (체중 80kg 성인은 칼로리가 15% 더 소모됩니다)
+            <br />
+            <br />
+            출처 : KDCA 신체활동 가이드
           </div>
         </div>
       </div>

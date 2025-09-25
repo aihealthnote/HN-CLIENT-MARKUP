@@ -161,6 +161,11 @@ export default function HealthCareWorkoutInput() {
             </div>
           </div>
         </div>
+        <ul className="text_align_left padding_12_0">
+          <li className="font_12 weight_regular color_gray_60">
+            출처 : KDCA 신체활동 가이드
+          </li>
+        </ul>
       </div>
       <div className="bottom_button_wrap">
         <button className="bottom_button button_primary">저장하기</button>

@@ -11,11 +11,23 @@ export default function AiHealthDoctor() {
           ></img>
           <span className="font_17 weight_semi_bold">AI 건강 주치의</span>
         </div>
+        <ul className="list_style_type padding_12_20">
+          <li className="font_12 weight_regular color_gray_60">
+            AI가 제공하는 참고용 정보로, 의료인의 진단이나 처방을 대체하지
+            않습니다.
+          </li>
+          <li className="font_12 weight_regular color_gray_60">
+            건강 이상이 의심될 경우, 반드시 의료기간에서 전문의 상담을 꼭
+            받으세요.
+          </li>
+          <li className="font_12 weight_regular color_gray_60">
+            본 서비스는 의료법 등 관련법령을 주수하며, 의료행위에 해당하는
+            서비스는 제공하지 않습니다.
+          </li>
+        </ul>
         <div className="health_doctor_json_box">
           <div className="font_13 weight_medium width_100 color_gray_50 text_align_center health_doctor_json_text">
             안녕하세요! 저는 AI 건강 주치의입니다.
-            <br />
-            궁금한 게 있으시면 무엇이든 말씀해보세요!
           </div>
         </div>
         <div className="position_absolute position_absolute_ai_doctor">
