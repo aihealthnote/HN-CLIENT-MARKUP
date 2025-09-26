@@ -17,7 +17,7 @@ export default function AiHealthDoctor() {
             않습니다.
           </li>
           <li className="font_12 weight_regular color_gray_60">
-            건강 이상이 의심될 경우, 반드시 의료기간에서 전문의 상담을 꼭
+            건강 이상이 의심될 경우, 반드시 의료기관에서 전문의 상담을 꼭
             받으세요.
           </li>
           <li className="font_12 weight_regular color_gray_60">
