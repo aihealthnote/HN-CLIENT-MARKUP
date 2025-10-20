@@ -1,19 +1,32 @@
 export default function Loading() {
   return (
-    <div className="splash_absolute">
-      <div className="message_container text_align_center">
-        {/*<div className="msg weight_semi_bold">과거 김승돈님의 건강상태가</div>
-        <div className="msg weight_semi_bold">
-          어떻게 변해왔는지 파악하고 있어요
-        </div>*/}
-        {/* <div className="msg weight_semi_bold">AI가 건강검진 결과로 학습해</div>
-        <div className="msg weight_semi_bold display_flex_row">
-          <div className="weight_semi_bold color_0CC25A">맞춤형 건강리포트</div>
-          를 만들고 있어요
-        </div> */}
-        <div className="msg weight_semi_bold">거의 다 완성했어요</div>
-        <div className="msg weight_semi_bold">조금만 기다려주세요</div>
+    <>
+      <div className="display_flex_column gap_12">
+        <div className="top_title_wrap">
+          <img src="/img/arrow_left_bk.svg"></img>
+        </div>
+        <div className="padding_0_20">
+          <div className="weight_semi_bold font_17">
+            건강검진 정보를 확인 중입니다
+          </div>
+          <div className="weight_regular font_15 color_gray_70">
+            잠시만 기다려주세요
+          </div>
+        </div>
       </div>
-    </div>
+      <div className="splash_absolute2">
+        <div className="message_container text_align_center display_flex_column gap_12">
+          <div>
+            <div className="msg font_19 weight_semi_bold">
+              하루 15분 빨리 걷기만 해도
+            </div>
+            <div className="msg font_19 weight_semi_bold">
+              혈압이 평균 5mmHg 낮아집니다
+            </div>
+          </div>
+          <div className="graph">로딩바</div>
+        </div>
+      </div>
+    </>
   );
 }
