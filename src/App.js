@@ -160,6 +160,7 @@ import JoinTheMembership2 from './pages/join_the_membership_2';
 import FindId from './pages/find_id';
 import FindPw from './pages/find_pw';
 import FindPw2 from './pages/find_pw_2';
+import PopupApp from './pages/popup_app';
 
 const Home = () => <h2>Home Page</h2>;
 function App() {
@@ -522,6 +523,7 @@ function App() {
         <Route path="/find_id" element={<FindId />} />
         <Route path="/find_pw" element={<FindPw />} />
         <Route path="/find_pw_2" element={<FindPw2 />} />
+        <Route path="/popup_app" element={<PopupApp />} />
       </Routes>
     </Router>
   );
